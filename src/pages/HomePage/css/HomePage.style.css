@@ -1,0 +1,37 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.home{
+  background-color: #dfe9ff;
+  height: 100vh;
+}
+
+.inner{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+/*--------HEADER--------*/
+header{
+  background-color: #dfe9ff;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+
+
+.inner ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+.auth{
+  display: flex;
+  align-items: center;
+}
