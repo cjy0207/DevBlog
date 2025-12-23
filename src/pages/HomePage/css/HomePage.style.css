@@ -9,7 +9,7 @@ html, body {
 }
 
 .inner{
-  max-width: 1200px;
+  max-width: 1550px;
   margin: 0 auto;
 }
 
@@ -48,4 +48,72 @@ header .inner {
 .auth{
   display: flex;
   align-items: center;
+  gap: 10px;
+  margin-right: 10px;
+}
+
+.login-btn{
+  background-color: white;
+  width: 80px;
+  padding: 10px 0;
+  border: 1px solid #333;
+  border-radius: 20px;
+}
+
+.signup-btn{
+  background-color: #111;
+  color: white;
+  width: 80px;
+  padding: 10px 0;
+  border-radius: 20px;
+  border-style: none;
+}
+
+/*--------VISUAL--------*/
+.visual{
+ 
+}
+.visual .inner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.visual .inner h1{
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.visual .inner h4{
+  font-weight: 200;
+  margin-top: 0;
+}
+
+.visual-stats{
+  display: flex;
+  gap: 20px;
+}
+
+.stat{
+  color: #555;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+
+
+/*--------CATEGORY--------*/
+.category{
+  width: 1200px;
+}
+
+.category-list{
+  display: flex;
+  gap: 50px;
+}
+
+.category-list li{
+  list-style: none;
 }

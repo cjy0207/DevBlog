@@ -4,6 +4,8 @@ import './css/HomePage.style.css'
 const HomePage = () => {
   return (
     <div className='home'>
+
+      {/* ===== Header ===== */}
       <header>
         <div className='inner'>
           <div className='logo'>DevBlog</div>
@@ -17,15 +19,65 @@ const HomePage = () => {
             </ul>
           </nav>
           <div className='auth'>
-            <button>Login</button>
-            <button>Sign Up</button>
+            <button className='login-btn'>Login</button>
+            <button className='signup-btn'>Sign Up</button>
           </div>
         </div>
       </header>
 
-      <section className='visual'></section>
-      <section className='category'></section>
-      <section className='new'></section>
+      {/* ===== Visual ===== */}
+      <section className='visual'>
+        <div className='inner'>
+          <h1>Welcome to User's Space</h1>
+          <h4>코드, 경험 그리고 성장의 이야기를 공유합니다.</h4>
+        
+          <div className='visual-stats'>
+            <div className='stat'>📄 127 Posts</div>
+            <div className='stat'>🗂 12 Projects</div>
+          </div>
+
+        </div>
+      </section>
+
+      {/* ===== Category ===== */}
+      <section className='category'>
+        <ul className='category-list'>
+          <li>DevOps</li>
+          <li>Security</li>
+          <li>Database</li>
+          <li>Backend</li>
+          <li>Frontend</li>
+        </ul>
+      </section>
+
+
+      {/* ===== Post ===== */}
+      <section className='new'>
+
+        <div className='new-list'>
+
+        </div>
+
+      </section>
+
+
+      {/* ===== Footer ===== */}
+      <footer>
+        <div className='footer-inner'>
+          <div>
+            <strong>DevBlog</strong>
+            <p>개발자를 위한 기술 블로그</p>
+          </div>
+
+          <div className='sns'>
+            <span>GitHub</span>
+            <span>Twitter</span>
+            <span>LinkedIn</span>
+          </div>
+        </div>
+      </footer>
+
+
     </div>
   )
 }
