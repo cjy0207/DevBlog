@@ -1,4 +1,6 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFolder } from '@fortawesome/free-solid-svg-icons'
 import './css/HomePage.style.css'
 
 const HomePage = () => {
@@ -32,8 +34,10 @@ const HomePage = () => {
           <h4>코드, 경험 그리고 성장의 이야기를 공유합니다.</h4>
         
           <div className='visual-stats'>
-            <div className='stat'>📄 127 Posts</div>
-            <div className='stat'>🗂 12 Projects</div>
+            <div className='stat'>
+              <FontAwesomeIcon icon={faFolder} /> 127 Posts</div>
+            <div className='stat'>
+              <FontAwesomeIcon icon={faFolder} /> 12 Projects</div>
           </div>
 
         </div>
@@ -53,7 +57,7 @@ const HomePage = () => {
 
       {/* ===== Post ===== */}
       <section className='new'>
-
+        <h2>New Post</h2>
         <div className='new-list'>
 
         </div>
